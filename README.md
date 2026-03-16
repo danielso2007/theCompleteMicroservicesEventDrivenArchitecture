@@ -8,6 +8,7 @@
     - [Fluxos Reais de Microsserviços Orientados a Eventos](#fluxos-reais-de-microsserviços-orientados-a-eventos)
     - [Fluxo Completo de Microsserviços](#fluxo-completo-de-microsserviços)
     - [Arquitetura Completa de E‑commerce](#arquitetura-completa-de-ecommerce)
+- [Teorema CAP](#teorema-cap)
 - [Outros](#outros)
     - [The Complete Microservices \& Event-Driven Architecture - Original](#the-complete-microservices--event-driven-architecture---original)
 
@@ -68,6 +69,12 @@
 ### Arquitetura Completa de E‑commerce
 
 [Arquitetura Completa de E‑commerce](docs/arquitetura_ecommerce_microservices.md)
+
+---
+
+# Teorema CAP
+
+[Teorema CAP](docs/resumo_teorema_cap.md)
 
 ---
 
