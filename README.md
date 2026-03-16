@@ -12,6 +12,7 @@
 - [Mapa Mental Completo --- Teorema CAP](#mapa-mental-completo-----teorema-cap)
 - [CAP vs PACELC --- Explicação Didática](#cap-vs-pacelc-----explicação-didática)
 - [Arquitetura Real de E‑commerce Aplicando o Teorema CAP](#arquitetura-real-de-ecommerce-aplicando-o-teorema-cap)
+- [CAP aplicado em Microsserviços + Kafka](#cap-aplicado-em-microsserviços--kafka)
 - [Outros](#outros)
     - [The Complete Microservices \& Event-Driven Architecture - Original](#the-complete-microservices--event-driven-architecture---original)
 
@@ -95,6 +96,12 @@
 # Arquitetura Real de E‑commerce Aplicando o Teorema CAP
 
 [Arquitetura Real de E‑commerce Aplicando o Teorema CAP](docs/arquitetura_ecommerce_cap.md)
+
+---
+
+# CAP aplicado em Microsserviços + Kafka
+
+[CAP aplicado em Microsserviços + Kafka](docs/cap_microsservicos_kafka.md)
 
 ---
 
