@@ -1,3 +1,61 @@
+- [Mapa Mental Completo --- Teorema CAP](#mapa-mental-completo-----teorema-cap)
+  - [CAP Theorem](#cap-theorem)
+- [1. Consistency (C)](#1-consistency-c)
+  - [Características](#características)
+  - [Tecnologias associadas](#tecnologias-associadas)
+  - [Bancos comuns](#bancos-comuns)
+  - [Vantagens](#vantagens)
+  - [Desvantagens](#desvantagens)
+- [2. Availability (A)](#2-availability-a)
+  - [Características](#características-1)
+  - [Observação](#observação)
+  - [Vantagens](#vantagens-1)
+  - [Desvantagens](#desvantagens-1)
+- [3. Partition Tolerance (P)](#3-partition-tolerance-p)
+  - [Causas de partição](#causas-de-partição)
+  - [Consequências](#consequências)
+  - [Observação importante](#observação-importante)
+- [4. Trade-off CAP](#4-trade-off-cap)
+- [5. Modelos CAP](#5-modelos-cap)
+  - [CP (Consistency + Partition Tolerance)](#cp-consistency--partition-tolerance)
+    - [Comportamento](#comportamento)
+    - [Exemplos](#exemplos)
+  - [AP (Availability + Partition Tolerance)](#ap-availability--partition-tolerance)
+    - [Comportamento](#comportamento-1)
+    - [Exemplos](#exemplos-1)
+  - [CA (Consistency + Availability)](#ca-consistency--availability)
+- [6. Modelos de Consistência](#6-modelos-de-consistência)
+  - [Strong Consistency](#strong-consistency)
+    - [Implementações](#implementações)
+    - [Uso típico](#uso-típico)
+  - [Eventual Consistency](#eventual-consistency)
+    - [Características](#características-2)
+    - [Uso típico](#uso-típico-1)
+- [7. Bancos NoSQL e CAP](#7-bancos-nosql-e-cap)
+- [8. MongoDB no CAP](#8-mongodb-no-cap)
+  - [Arquitetura](#arquitetura)
+  - [Funcionamento](#funcionamento)
+  - [Consequência](#consequência)
+- [9. Cassandra no CAP](#9-cassandra-no-cap)
+  - [Arquitetura](#arquitetura-1)
+  - [Funcionamento](#funcionamento-1)
+  - [Mecanismos internos](#mecanismos-internos)
+  - [Benefícios](#benefícios)
+- [10. CAP em Microsserviços](#10-cap-em-microsserviços)
+  - [Exemplo](#exemplo)
+- [11. Exemplos de Aplicação](#11-exemplos-de-aplicação)
+  - [Sistema de votação (CP)](#sistema-de-votação-cp)
+  - [Sistema de chat (AP)](#sistema-de-chat-ap)
+- [12. Workload em Sistemas Distribuídos](#12-workload-em-sistemas-distribuídos)
+  - [Tipos](#tipos)
+  - [Características](#características-3)
+    - [Volume](#volume)
+    - [Complexidade](#complexidade)
+    - [Variabilidade](#variabilidade)
+    - [Dependências](#dependências)
+- [Estrutura Mental Simplificada](#estrutura-mental-simplificada)
+
+
 # Mapa Mental Completo --- Teorema CAP
 
 ## CAP Theorem
@@ -344,10 +402,61 @@ Relacionamento entre tarefas.
 
 # Estrutura Mental Simplificada
 
-CAP ├ Consistency │ ├ strong consistency │ ├ ACID │ └ bancos relacionais
-│ ├ Availability │ ├ resposta sempre │ ├ baixa latência │ └ dados podem
-divergir │ └ Partition Tolerance ├ falhas de rede ├ isolamento de nós └
-necessidade de trade‑off
-
-Trade‑off ├ CP │ ├ MongoDB │ └ bancos relacionais cluster │ └ AP ├
-Cassandra └ DynamoDB
+```mermaid
+mindmap
+  root((Teorema CAP))
+    Definicao
+      Sistema_Distribuido
+      "Nao garante C+A+P simultaneamente"
+      "Particao P obriga escolha entre C ou A"
+    Consistency_C
+      Caracteristicas
+        "Mesmo dado ao mesmo tempo"
+        "Leitura retorna ultimo escrito"
+        "Replicacao Sincronizada"
+      Tecnologias
+        ACID
+        "Two-Phase Commit"
+      Vantagens_Desvantagens
+        "Integridade de Dados"
+        "Maior latencia"
+    Availability_A
+      Caracteristicas
+        "Sistema sempre responde"
+        "Qualquer no atende"
+      Vantagens_Desvantagens
+        "Alta Disponibilidade"
+        "Dados desatualizados"
+    Partition_Tolerance_P
+      Causas
+        "Falha de Rede"
+        "Isolamento de Datacenter"
+      Observacao
+        "P e inevitavel"
+    Modelos_Trade_offs
+      CP_Consistencia_Particao
+        "Prioriza Integridade"
+        "Exemplo: MongoDB"
+      AP_Disponibilidade_Particao
+        "Prioriza Resposta"
+        "Exemplo: Cassandra"
+    Modelos_Consistencia
+      Strong_Consistency
+        "Transacoes ACID"
+      Eventual_Consistency
+        "Redes Sociais e Chat"
+    Casos_Especificos
+      MongoDB_CP
+        "Replica Set"
+        "Indisponivel em Eleicao"
+      Cassandra_AP
+        "Masterless"
+        "Gossip Protocol"
+    Microsservicos_Workload
+      Estrategia_Polyglot
+        "Pagamentos: CP"
+        "Chat: AP"
+      Workload_Types
+        "Volume e Complexidade"
+        "Variabilidade e Dependencias"
+```
