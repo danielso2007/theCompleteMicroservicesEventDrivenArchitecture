@@ -11,6 +11,7 @@
 - [Teorema CAP](#teorema-cap)
 - [Mapa Mental Completo --- Teorema CAP](#mapa-mental-completo-----teorema-cap)
 - [CAP vs PACELC --- Explicação Didática](#cap-vs-pacelc-----explicação-didática)
+- [Arquitetura Real de E‑commerce Aplicando o Teorema CAP](#arquitetura-real-de-ecommerce-aplicando-o-teorema-cap)
 - [Outros](#outros)
     - [The Complete Microservices \& Event-Driven Architecture - Original](#the-complete-microservices--event-driven-architecture---original)
 
@@ -88,6 +89,12 @@
 # CAP vs PACELC --- Explicação Didática
 
 [CAP vs PACELC --- Explicação Didática](docs/cap_vs_pacelc.md)
+
+---
+
+# Arquitetura Real de E‑commerce Aplicando o Teorema CAP
+
+[Arquitetura Real de E‑commerce Aplicando o Teorema CAP](docs/arquitetura_ecommerce_cap.md)
 
 ---
 
