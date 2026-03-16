@@ -13,7 +13,6 @@
     - [The Complete Microservices \& Event-Driven Architecture - Original](#the-complete-microservices--event-driven-architecture---original)
 
 
-
 ---
 
 # The Complete Microservices &amp; Event-Driven Architecture

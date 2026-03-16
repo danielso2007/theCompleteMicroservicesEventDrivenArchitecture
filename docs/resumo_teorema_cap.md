@@ -1,3 +1,32 @@
+- [Teorema CAP --- Resumo Técnico Detalhado](#teorema-cap-----resumo-técnico-detalhado)
+  - [1. Introdução](#1-introdução)
+- [2. Sistemas Distribuídos](#2-sistemas-distribuídos)
+- [3. As Três Propriedades do Teorema CAP](#3-as-três-propriedades-do-teorema-cap)
+  - [3.1 Consistência (Consistency)](#31-consistência-consistency)
+  - [3.2 Disponibilidade (Availability)](#32-disponibilidade-availability)
+  - [3.3 Tolerância a Partições (Partition Tolerance)](#33-tolerância-a-partições-partition-tolerance)
+- [4. O Trade-off do CAP](#4-o-trade-off-do-cap)
+- [5. Modelos de Consistência](#5-modelos-de-consistência)
+  - [5.1 Consistência Forte](#51-consistência-forte)
+  - [5.2 Consistência Eventual](#52-consistência-eventual)
+- [6. Classificação CAP de Bancos de Dados](#6-classificação-cap-de-bancos-de-dados)
+  - [6.1 CP --- Consistência + Tolerância a Partições](#61-cp-----consistência--tolerância-a-partições)
+  - [6.2 AP --- Disponibilidade + Tolerância a Partições](#62-ap-----disponibilidade--tolerância-a-partições)
+  - [6.3 CA --- Consistência + Disponibilidade](#63-ca-----consistência--disponibilidade)
+- [7. NoSQL e CAP](#7-nosql-e-cap)
+- [8. MongoDB e CAP](#8-mongodb-e-cap)
+- [9. Cassandra e CAP](#9-cassandra-e-cap)
+- [10. CAP em Microsserviços](#10-cap-em-microsserviços)
+- [11. Exemplo de Sistema CP --- Sistema de Votação](#11-exemplo-de-sistema-cp-----sistema-de-votação)
+- [12. Exemplo de Sistema AP --- Sistema de Chat](#12-exemplo-de-sistema-ap-----sistema-de-chat)
+- [13. Conceito de Workload](#13-conceito-de-workload)
+    - [Volume](#volume)
+    - [Complexidade](#complexidade)
+    - [Variabilidade](#variabilidade)
+    - [Dependências](#dependências)
+- [14. Conclusão](#14-conclusão)
+
+
 # Teorema CAP --- Resumo Técnico Detalhado
 
 ## 1. Introdução
