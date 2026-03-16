@@ -406,57 +406,57 @@ Relacionamento entre tarefas.
 mindmap
   root((Teorema CAP))
     Definicao
-      Sistema_Distribuido
-      "Nao garante C+A+P simultaneamente"
+      Sistema Distribuido
+      "Nao garante C A P simultaneamente"
       "Particao P obriga escolha entre C ou A"
-    Consistency_C
+    Consistency-C
       Caracteristicas
         "Mesmo dado ao mesmo tempo"
         "Leitura retorna ultimo escrito"
         "Replicacao Sincronizada"
       Tecnologias
         ACID
-        "Two-Phase Commit"
-      Vantagens_Desvantagens
+        Two-Phase Commit
+      Vantagens-Desvantagens
         "Integridade de Dados"
         "Maior latencia"
-    Availability_A
+    Availability-A
       Caracteristicas
         "Sistema sempre responde"
         "Qualquer no atende"
-      Vantagens_Desvantagens
+      Vantagens-Desvantagens
         "Alta Disponibilidade"
         "Dados desatualizados"
-    Partition_Tolerance_P
+    Partition-Tolerance-P
       Causas
         "Falha de Rede"
         "Isolamento de Datacenter"
       Observacao
         "P e inevitavel"
-    Modelos_Trade_offs
-      CP_Consistencia_Particao
+    Modelos-Trade-offs
+      CP-Consistencia-Particao
         "Prioriza Integridade"
-        "Exemplo: MongoDB"
-      AP_Disponibilidade_Particao
+        "Exemplo - MongoDB"
+      AP-Disponibilidade-Particao
         "Prioriza Resposta"
-        "Exemplo: Cassandra"
-    Modelos_Consistencia
-      Strong_Consistency
+        "Exemplo - Cassandra"
+    Modelos-Consistencia
+      Strong-Consistency
         "Transacoes ACID"
-      Eventual_Consistency
+      Eventual-Consistency
         "Redes Sociais e Chat"
-    Casos_Especificos
-      MongoDB_CP
+    Casos-Especificos
+      MongoDB-CP
         "Replica Set"
         "Indisponivel em Eleicao"
-      Cassandra_AP
+      Cassandra-AP
         "Masterless"
         "Gossip Protocol"
-    Microsservicos_Workload
-      Estrategia_Polyglot
-        "Pagamentos: CP"
-        "Chat: AP"
-      Workload_Types
+    Microsservicos-Workload
+      Estrategia-Polyglot
+        "Pagamentos - CP"
+        "Chat - AP"
+      Workload-Types
         "Volume e Complexidade"
         "Variabilidade e Dependencias"
 ```
