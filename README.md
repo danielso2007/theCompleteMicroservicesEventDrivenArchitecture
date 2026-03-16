@@ -4,6 +4,7 @@
     - [Resumo Completo Microservices Event Driven](#resumo-completo-microservices-event-driven)
     - [Guia Visual — Microservices \& Event‑Driven Architecture](#guia-visual--microservices--eventdriven-architecture)
     - [Arquitetura de Referência — Java + Spring Boot + Kafka + Kubernetes](#arquitetura-de-referência--java--spring-boot--kafka--kubernetes)
+    - [Mapa Mental — The Complete Microservices \& Event-Driven Architecture](#mapa-mental--the-complete-microservices--event-driven-architecture)
 - [Outros](#outros)
     - [The Complete Microservices \& Event-Driven Architecture - Original](#the-complete-microservices--event-driven-architecture---original)
 
@@ -39,6 +40,12 @@
 ### Arquitetura de Referência — Java + Spring Boot + Kafka + Kubernetes
 
 [Arquitetura de Referência — Java + Spring Boot + Kafka + Kubernetes](docs/arquitetura_referencia_java_spring_kafka_kubernetes.md)
+
+---
+
+### Mapa Mental — The Complete Microservices & Event-Driven Architecture
+
+[Mapa Mental — The Complete Microservices & Event-Driven Architecture](docs/microservices_event_driven_mindmap.md)
 
 ---
 
