@@ -7,6 +7,7 @@
     - [Mapa Mental — The Complete Microservices \& Event-Driven Architecture](#mapa-mental--the-complete-microservices--event-driven-architecture)
     - [Fluxos Reais de Microsserviços Orientados a Eventos](#fluxos-reais-de-microsserviços-orientados-a-eventos)
     - [Fluxo Completo de Microsserviços](#fluxo-completo-de-microsserviços)
+    - [Arquitetura Completa de E‑commerce](#arquitetura-completa-de-ecommerce)
 - [Outros](#outros)
     - [The Complete Microservices \& Event-Driven Architecture - Original](#the-complete-microservices--event-driven-architecture---original)
 
@@ -61,6 +62,12 @@
 ### Fluxo Completo de Microsserviços
 
 [Fluxo Completo de Microsserviços](docs/fluxo_microservices_order_payment_inventory_shipping.md)
+
+---
+
+### Arquitetura Completa de E‑commerce
+
+[Arquitetura Completa de E‑commerce](docs/arquitetura_ecommerce_microservices.md)
 
 ---
 
