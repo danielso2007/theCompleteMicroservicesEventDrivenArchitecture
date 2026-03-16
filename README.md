@@ -9,6 +9,7 @@
     - [Fluxo Completo de Microsserviços](#fluxo-completo-de-microsserviços)
     - [Arquitetura Completa de E‑commerce](#arquitetura-completa-de-ecommerce)
 - [Teorema CAP](#teorema-cap)
+- [Mapa Mental Completo --- Teorema CAP](#mapa-mental-completo-----teorema-cap)
 - [Outros](#outros)
     - [The Complete Microservices \& Event-Driven Architecture - Original](#the-complete-microservices--event-driven-architecture---original)
 
@@ -74,6 +75,12 @@
 # Teorema CAP
 
 [Teorema CAP](docs/resumo_teorema_cap.md)
+
+---
+
+# Mapa Mental Completo --- Teorema CAP
+
+[Mapa Mental Completo --- Teorema CAP](docs/mapa_mental_cap.md)
 
 ---
 
