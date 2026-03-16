@@ -6,8 +6,10 @@
     - [Arquitetura de Referência — Java + Spring Boot + Kafka + Kubernetes](#arquitetura-de-referência--java--spring-boot--kafka--kubernetes)
     - [Mapa Mental — The Complete Microservices \& Event-Driven Architecture](#mapa-mental--the-complete-microservices--event-driven-architecture)
     - [Fluxos Reais de Microsserviços Orientados a Eventos](#fluxos-reais-de-microsserviços-orientados-a-eventos)
+    - [Fluxo Completo de Microsserviços](#fluxo-completo-de-microsserviços)
 - [Outros](#outros)
     - [The Complete Microservices \& Event-Driven Architecture - Original](#the-complete-microservices--event-driven-architecture---original)
+
 
 
 ---
@@ -53,6 +55,12 @@
 ### Fluxos Reais de Microsserviços Orientados a Eventos
 
 [Fluxos Reais de Microsserviços Orientados a Eventos](docs/event_driven_microservices_flows.md)
+
+---
+
+### Fluxo Completo de Microsserviços
+
+[Fluxo Completo de Microsserviços](docs/fluxo_microservices_order_payment_inventory_shipping.md)
 
 ---
 
